@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap");
 
-#home-title:after {
+#home-title {
   font-size: 100%;
   content: "heydanfjanfjasnfjasnfjasnfja";
   text-align: center;
@@ -9,7 +9,8 @@
   font-weight: 400;
   animation: animate-home-title 15s linear infinite;
   white-space: pre;
-  overflow-wrap: break-word;
+  align-content: center;
+
 
 }
 
@@ -19,13 +20,12 @@
   height: 500px;
   border: 5px solid green;
   margin: 10px auto;
-  border-color:aqua;
   box-sizing: border-box;
   display: flex;
   align-content: center;
   align-items: center;
   justify-content: center;
-  overflow-wrap: break-word;
+
 }
 
 .large-font{
@@ -41,84 +41,45 @@ body {
 @keyframes animate-home-title{
   0% {
     font-size:100%; opacity:1; content: "Hi! My name is Anthony and I am a developer who likes to use _";
-    align-content: center;
-    text-align: center;
   }
   5% {
     font-size:100%; opacity:1; content: "Hi! My name is Anthony and I am a developer who likes to use \00a0  ";
-    align-content: center;
-    text-align: center;
- 
+    display: inline-block;
+    word-break: break-all;
   }
 
   10% {
     font-size:100%; opacity:1; content: "Hi! My name is Anthony and I am a developer who likes to use _";
-    align-content: center;
-    text-align: center;
   }
   15% {
     font-size:100%; opacity:1; content: "Hi! My name is Anthony and I am a developer who likes to use \00a0  ";
-    align-content: center;
-    text-align: center;
   }
 
   20% {
     font-size:100%; opacity:1; content: "Hi! My name is Anthony and I am a developer who likes to use H_ ";
-    align-content: center;
-    text-align: center;
   }
 
   21% {
     font-size:100%; opacity:1; content: "Hi! My name is Anthony and I am a developer who likes to use HT_ ";
-    align-content: center;
-    text-align: center;
     
+    display: inline-block;
+  word-break: break-all;
   }
 
   22% {
     font-size:100%; opacity:1; content: "Hi! My name is Anthony and I am a developer who likes to use HTM_ ";
-    align-content: center;
-    text-align: center;
   }
 
   23% {
     font-size:100%; opacity:1; content: "Hi! My name is Anthony and I am a developer who likes to use HTML_ ";
-    align-content: center;
-    text-align: center;
   }
 
   28% {
     font-size:100%; opacity:1; content: "Hi! My name is Anthony and I am a developer who likes to use HTML \00a0  ";
-    align-content: center;
-    text-align: center;
+    
   }
 
-  100% {
-    font-size:100%; opacity:1; content: "My wife is Katharine";
-    align-self: center;
-  }
 
   
-}
-
-#spin {
-  color:red;
-}
-#spin:after {
-  content:"";
-  animation: spin 2s linear infinite;
-}
-
-@keyframes spin {
-  0% { content:"ipsum"; }
-  10% { content:"dolor"; }
-  20% { content:"sit"; }
-  30% { content:"amet"; }
-  40% { content:"consectetur"; }
-  50% { content: "adipisicing"; }
-  60% { content: "elit"; }
-  70% { content: "Hic"; }
-  80% { content: "atque"; }
-  90% { content: "fuga"; }
 }
 /*# sourceMappingURL=style.css.map */
