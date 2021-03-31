@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');
+
+$noto-sans: 'Noto Sans', serif;
+
+
+@mixin main-font(){
+    font-family: $noto-sans;
+}
+
+#home-title{
+    @include main-font();
+    color:black;
+    font-weight: 400;
+    font-size: 50px;
+}
+body{
+    
+    background-color:white;
+}
