@@ -1,85 +1,987 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap");
 
-#home-title {
-  font-size: 100%;
-  content: "heydanfjanfjasnfjasnfjasnfja";
+html{
+  border: 10px solid black;
+}
+
+footer{
   text-align: center;
+}
+
+.flex-container {
+  width: 70%;
+  height: 400px;
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  overflow:hidden;
+}
+
+/*#region nav-bar*/
+.nav-bar {
+  padding-top:20px;
+  padding-right: 20px;
+  font-size: 120%;
+  font-weight: bold;
+  font-family: "Noto Sans", serif;
+  display:flex;
+  justify-content: flex-end;
+}
+
+.nav-bar a:link{
+  color: black;
+  display: inline;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.nav-bar a:visited{
+  color:black;
+}
+
+.nav-bar a:hover{
+  text-decoration: underline 2px rgb(163, 0, 0);
+}
+
+/*#endregion nav-bar*/
+
+/*#region home-title*/
+#home-title1 {
   font-family: "Noto Sans", serif;
   color: black;
   font-weight: 400;
-  animation: animate-home-title 15s linear infinite;
-  white-space: pre;
-  align-content: center;
-
-
-}
-
-
-.fancy{
-  width:60%;
-  height: 500px;
-  border: 5px solid green;
-  margin: 10px auto;
-  box-sizing: border-box;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.large-font{
-  display:flex;
-  justify-content: flex-end;
   font-size: 50px;
-}
-body {
-  
-  background-color:white;
+  text-align: center;
+  animation: animate-home-title1 8s linear infinite;
 }
 
-@keyframes animate-home-title{
+#home-title2 {
+  font-family: "Noto Sans", serif;
+  color: black;
+  font-weight: 400;
+  font-size: 50px;
+  text-align: center;
+  animation: animate-home-title2 8s linear infinite;
+}
+
+#home-title3 {
+  font-family: "Noto Sans", serif;
+  color: black;
+  font-weight: 400;
+  font-size: 50px;
+  text-align: center;
+  animation: animate-home-title3 8s linear infinite;
+}
+
+#home-title4 {
+  font-family: "Noto Sans", serif;
+  color: black;
+  font-weight: 400;
+  font-size: 50px;
+  text-align: center;
+  animation: animate-home-title4 8s linear infinite;
+}
+
+#home-title5 {
+  font-family: "Noto Sans", serif;
+  color: black;
+  font-weight: 400;
+  font-size: 50px;
+  animation: animate-home-title5 8s linear infinite;
+  text-align: center;
+}
+
+#home-title6 {
+  font-family: "Noto Sans", serif;
+  color: black;
+  font-weight: 400;
+  font-size: 50px;
+  animation: animate-home-title6 8s linear infinite;
+  text-align: center;
+}
+
+#home-title7 {
+  font-family: "Noto Sans", serif;
+  color: black;
+  font-weight: 400;
+  font-size: 50px;
+  animation: animate-home-title7 8s linear infinite;
+  text-align: center;
+}
+
+#home-title8 {
+  font-family: "Noto Sans", serif;
+  color: black;
+  font-weight: 400;
+  font-size: 50px;
+  animation: animate-home-title8 8s linear infinite;
+  text-align: center;
+}
+
+#home-title9 {
+  font-family: "Noto Sans", serif;
+  color: black;
+  font-weight: 400;
+  font-size: 50px;
+  animation: animate-home-title9 8s linear infinite;
+  text-align: center;
+}
+
+#home-title10 {
+  font-family: "Noto Sans", serif;
+  color: black;
+  font-weight: 400;
+  font-size: 50px;
+  animation: animate-home-title10 8s linear infinite;
+  text-align: center;
+}
+
+#home-title11 {
+  font-family: "Noto Sans", serif;
+  color: black;
+  font-weight: 400;
+  font-size: 50px;
+  animation: animate-home-title11 8s linear infinite;
+  text-align: center;
+}
+
+body {
+  background-color: white;
+}
+
+/*#endregion home-title*/
+
+/*#region title-animations*/
+@keyframes animate-home-title1
+{
   0% {
-    font-size:100%; opacity:1; content: "Hi! My name is Anthony and I am a developer who likes to use _";
+    width: 0px;
+    height: 0px;
+    opacity: 0;
   }
-  5% {
-    font-size:100%; opacity:1; content: "Hi! My name is Anthony and I am a developer who likes to use \00a0  ";
-    display: inline-block;
-    word-break: break-all;
+
+  4.99% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    
+  }
+  5%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  9.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
   }
 
   10% {
-    font-size:100%; opacity:1; content: "Hi! My name is Anthony and I am a developer who likes to use _";
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    
   }
-  15% {
-    font-size:100%; opacity:1; content: "Hi! My name is Anthony and I am a developer who likes to use \00a0  ";
+
+  14.99% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    
+  }
+  15%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  19.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
   }
 
   20% {
-    font-size:100%; opacity:1; content: "Hi! My name is Anthony and I am a developer who likes to use H_ ";
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    
   }
 
-  21% {
-    font-size:100%; opacity:1; content: "Hi! My name is Anthony and I am a developer who likes to use HT_ ";
+  48.99% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
     
-    display: inline-block;
-  word-break: break-all;
+  }
+  49%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  53.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  54% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  58.99% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    
+  }
+  59%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  63.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  64% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+
+  94.99% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    
+  }
+  95%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  99.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  100%
+  {
+    width:0px;
+    height:0px;
+    opacity:0;
+  }
+}
+
+@keyframes animate-home-title2
+{
+  0% {
+  }
+
+  4.99% {
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+  5%{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  9.99% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    
+  }
+  10%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  14.99% {
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+  15%{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  53.99% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    
+  }
+  54%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  58.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  59% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  63.99% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    
+  }
+  64%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  68.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  69% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+  100%
+  {
+    width:0px;
+    height:0px;
+    opacity:0;
+  }
+}
+
+
+  @keyframes animate-home-title3
+{
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  19.99%{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  20% {
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  21.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
   }
 
   22% {
-    font-size:100%; opacity:1; content: "Hi! My name is Anthony and I am a developer who likes to use HTM_ ";
+
+    width: 0px;
+    height: 0px;
+    opacity: 0;
   }
 
-  23% {
-    font-size:100%; opacity:1; content: "Hi! My name is Anthony and I am a developer who likes to use HTML_ ";
+  47.99%{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
   }
 
-  28% {
-    font-size:100%; opacity:1; content: "Hi! My name is Anthony and I am a developer who likes to use HTML \00a0  ";
-    
+  48% {
+    width: initial;
+    height:initial;
+    opacity:1;
   }
 
+  48.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  49% {
+
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
 
   
+
+  100%
+  {
+    width:0px;
+    height:0px;
+    opacity:0;
+  }
+}
+
+@keyframes animate-home-title4
+{
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  21.99%{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  22% {
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  23.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  24% {
+
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  46.99%{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  47% {
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  47.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  48% {
+
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  100%
+  {
+    width:0px;
+    height:0px;
+    opacity:0;
+  }
+}
+
+@keyframes animate-home-title5
+{
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  23.99%{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  24% {
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  25.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  26% {
+
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  45.99%{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  46% {
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  46.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  47% {
+
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  100%
+  {
+    width:0px;
+    height:0px;
+    opacity:0;
+  }
+}
+
+@keyframes animate-home-title6
+{
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  25.99%{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  26% {
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  30.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  31% {
+
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  35.99%{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  36% {
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  40.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  41% {
+
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  100%
+  {
+    width:0px;
+    height:0px;
+    opacity:0;
+  }
+}
+
+@keyframes animate-home-title7
+{
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  30.99%{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  31% {
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  35.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  36% {
+
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  40.99%{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  41% {
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  45.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  46% {
+
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  100%
+  {
+    width:0px;
+    height:0px;
+    opacity:0;
+  }
+}
+
+@keyframes animate-home-title8
+{
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  68.99%{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  69% {
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  70.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  71% {
+
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  93.99%{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  94% {
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  94.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  95% {
+
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  100%
+  {
+    width:0px;
+    height:0px;
+    opacity:0;
+  }
+}
+
+
+@keyframes animate-home-title9
+{
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  70.99%{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  71% {
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  72.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  73% {
+
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  92.99%{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  93% {
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  93.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  94% {
+
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  100%
+  {
+    width:0px;
+    height:0px;
+    opacity:0;
+  }
+}
+
+@keyframes animate-home-title10
+{
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  72.99%{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  73% {
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  77.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  78% {
+
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  82.99%{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  83% {
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  87.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  88% {
+
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  100%
+  {
+    width:0px;
+    height:0px;
+    opacity:0;
+  }
+}
+
+@keyframes animate-home-title11
+{
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  77.99%{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  78% {
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  82.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  83% {
+
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  87.99%{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  88% {
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  92.99%{
+    width: initial;
+    height:initial;
+    opacity:1;
+  }
+
+  93% {
+
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  100%
+  {
+    width:0px;
+    height:0px;
+    opacity:0;
+  }
+}
+
+/*#endregion title-animations*/
+
+.about{
+  margin: 10% 30%;
 }
 /*# sourceMappingURL=style.css.map */

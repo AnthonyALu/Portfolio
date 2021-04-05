@@ -3,16 +3,69 @@
 $noto-sans: 'Noto Sans', serif;
 
 
-@mixin main-font(){
+@mixin title-font(){
     font-family: $noto-sans;
-}
-
-#home-title{
-    @include main-font();
     color:black;
     font-weight: 400;
     font-size: 50px;
+    display: none;
 }
+
+#home-title1{
+    @include title-font();
+
+}
+
+#home-title2{
+    @include title-font();
+
+}
+
+#home-title3{
+    @include title-font();
+
+}
+
+#home-title4{
+    @include title-font();
+
+}
+
+#home-title5{
+    @include title-font();
+
+}
+
+#home-title6{
+    @include title-font();
+
+}
+
+#home-title7{
+    @include title-font();
+
+}
+
+#home-title8{
+    @include title-font();
+
+}
+
+#home-title9{
+    @include title-font();
+
+}
+
+#home-title10{
+    @include title-font();
+
+}
+
+#home-title11{
+    @include title-font();
+
+}
+
 body{
     
     background-color:white;
